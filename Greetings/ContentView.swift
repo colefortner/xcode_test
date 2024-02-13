@@ -8,48 +8,33 @@
 import SwiftUI
 
 struct ContentView: View {
+    let messages: [DataItemModel] = [
+        .init(
+            text: "First Imported View",
+            color: .yellow),
+        .init(
+            text: "Second Imported View",
+            color: .pink),
+        .init(
+            text: "Third Imported View",
+            color: .orange),
+        .init(
+            text: "Fourth Imported View",
+            color: .green),
+        .init(
+            text: "Fifth Imported View",
+            color: .gray)
+        
+    ]
+
     var body: some View {
         VStack(alignment: .leading) {
 
-            Text("Hello there!")
-                .fontWeight(.semibold)
-                .padding()
-                .foregroundStyle(Color.white)
-                .background(Color.green.opacity(0.4))
-                .cornerRadius(/*@START_MENU_TOKEN@*/20.0/*@END_MENU_TOKEN@*/)
-                .shadow(color: .green, radius: 5, x: 10.0, y: 10.0)
-            
-            Text("Welcome to Swift Programming")
-                .fontWeight(.semibold)
-                .padding()
-                .foregroundStyle(Color.white)
-                .background(Color.gray.opacity(0.4))
-                .cornerRadius(/*@START_MENU_TOKEN@*/20.0/*@END_MENU_TOKEN@*/)
-                .shadow(color: .gray, radius: 5, x: 10.0, y: 10.0)
-            
-            Text("Are you ready to, ")
-                .fontWeight(.semibold)
-                .padding()
-                .foregroundStyle(Color.white)
-                .background(Color.yellow.opacity(0.4))
-                .cornerRadius(/*@START_MENU_TOKEN@*/20.0/*@END_MENU_TOKEN@*/)
-                .shadow(color: .yellow, radius: 5, x: 10.0, y: 10.0)
-            
-            Text("start exploring?")
-                .fontWeight(.semibold)
-                .padding()
-                .foregroundStyle(Color.white)
-                .background(Color.red.opacity(0.4))
-                .cornerRadius(/*@START_MENU_TOKEN@*/20.0/*@END_MENU_TOKEN@*/)
-                .shadow(color: .red, radius: 5, x: 10.0, y: 10.0)
-            
-            Text("Boom.")
-                .fontWeight(.semibold)
-                .padding()
-                .foregroundStyle(Color.white)
-                .background(Color.purple.opacity(0.4))
-                .cornerRadius(/*@START_MENU_TOKEN@*/20.0/*@END_MENU_TOKEN@*/)
-                .shadow(color: .purple, radius: 5, x: 10.0, y: 10.0)
+            TextView(text: messages[0].text, color: messages[0].color)
+            TextView(text: messages[1].text, color: messages[1].color)
+            TextView(text: messages[2].text, color: messages[2].color)
+            TextView(text: messages[3].text, color: messages[3].color)
+            TextView(text: messages[4].text, color: messages[4].color)
         }
         .padding()
     }

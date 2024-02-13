@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E10B01DF2B7BD2C90065596E /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10B01DE2B7BD2C90065596E /* TextView.swift */; };
+		E10B01E12B7BEF360065596E /* DataItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10B01E02B7BEF360065596E /* DataItemModel.swift */; };
 		E1F521D52B6C2EB700DD6FB6 /* GreetingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F521D42B6C2EB700DD6FB6 /* GreetingsApp.swift */; };
 		E1F521D72B6C2EB700DD6FB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F521D62B6C2EB700DD6FB6 /* ContentView.swift */; };
 		E1F521D92B6C2EB800DD6FB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1F521D82B6C2EB800DD6FB6 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E10B01DE2B7BD2C90065596E /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		E10B01E02B7BEF360065596E /* DataItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItemModel.swift; sourceTree = "<group>"; };
 		E1F521D12B6C2EB700DD6FB6 /* Greetings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greetings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F521D42B6C2EB700DD6FB6 /* GreetingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsApp.swift; sourceTree = "<group>"; };
 		E1F521D62B6C2EB700DD6FB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +40,7 @@
 		E1F521C82B6C2EB700DD6FB6 = {
 			isa = PBXGroup;
 			children = (
+				E10B01E02B7BEF360065596E /* DataItemModel.swift */,
 				E1F521D32B6C2EB700DD6FB6 /* Greetings */,
 				E1F521D22B6C2EB700DD6FB6 /* Products */,
 			);
@@ -54,6 +59,7 @@
 			children = (
 				E1F521D42B6C2EB700DD6FB6 /* GreetingsApp.swift */,
 				E1F521D62B6C2EB700DD6FB6 /* ContentView.swift */,
+				E10B01DE2B7BD2C90065596E /* TextView.swift */,
 				E1F521D82B6C2EB800DD6FB6 /* Assets.xcassets */,
 				E1F521DA2B6C2EB800DD6FB6 /* Greetings.entitlements */,
 				E1F521DB2B6C2EB800DD6FB6 /* Preview Content */,
@@ -139,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E10B01E12B7BEF360065596E /* DataItemModel.swift in Sources */,
+				E10B01DF2B7BD2C90065596E /* TextView.swift in Sources */,
 				E1F521D72B6C2EB700DD6FB6 /* ContentView.swift in Sources */,
 				E1F521D52B6C2EB700DD6FB6 /* GreetingsApp.swift in Sources */,
 			);
